@@ -48,57 +48,68 @@ SMODS.Atlas{
     atlas_table = 'ASSET_ATLAS'
 }
 
-SMODS.DeckSkin{
-    key = 'balacord_spades',
-    suit = 'Spades',
-    ranks = {
-        '2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', 'King', 'Ace'
-    },
-    lc_atlas = 'balacord_spades_atlas',
-    loc_txt = {
-        ['en-us'] = 'Balacord'
-    },
-    posStyle = 'suit'
+SMODS.DeckSkin {
+	key = "balacord_spades",
+	suit = "Spades",
+	loc_txt = "Balacord",
+	palettes = {
+		{
+			key = 'hc',
+			ranks = {'2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', 'King', 'Ace'},
+			display_ranks = {'2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', 'King', 'Ace'},
+			atlas = 'balacards_balacord_spades_atlas',
+			pos_style = 'suit',
+		}
+	},
 }
 
-SMODS.DeckSkin{
-    key = 'balacord_hearts',
-    suit = 'Hearts',
-    ranks = {
-        '2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', 'King', 'Ace'
-    },
-    lc_atlas = 'balacord_hearts_atlas',
-    loc_txt = {
-        ['en-us'] = 'Balacord'
-    },
-    posStyle = 'suit'
+SMODS.DeckSkin {
+	key = "balacord_hearts",
+	suit = "Hearts",
+	loc_txt = "Balacord",
+	palettes = {
+		{
+			key = 'hc',
+			ranks = {'2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', 'King', 'Ace'},
+			display_ranks = {'2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', 'King', 'Ace'},
+			atlas = 'balacards_balacord_hearts_atlas',
+			pos_style = 'suit',
+		}
+	},
 }
 
-SMODS.DeckSkin{
-    key = 'balacord_clubs',
-    suit = 'Clubs',
-    ranks = {
-        '2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', 'King', 'Ace'
-    },
-    lc_atlas = 'balacord_clubs_atlas',
-    loc_txt = {
-        ['en-us'] = 'Balacord'
-    },
-    posStyle = 'suit'
+
+SMODS.DeckSkin {
+	key = "balacord_clubs",
+	suit = "Clubs",
+	loc_txt = "Balacord",
+	palettes = {
+		{
+			key = 'hc',
+			ranks = {'2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', 'King', 'Ace'},
+			display_ranks = {'2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', 'King', 'Ace'},
+			atlas = 'balacards_balacord_clubs_atlas',
+			pos_style = 'suit',
+		}
+	},
 }
 
-SMODS.DeckSkin{
-    key = 'balacord_diamonds',
-    suit = 'Diamonds',
-    ranks = {
-        '2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', 'King', 'Ace'
-    },
-    lc_atlas = 'balacord_diamonds_atlas',
-    loc_txt = {
-        ['en-us'] = 'Balacord'
-    },
-    posStyle = 'suit'
+
+SMODS.DeckSkin {
+	key = "balacord_diamonds",
+	suit = "Diamonds",
+	loc_txt = "Balacord",
+	palettes = {
+		{
+			key = 'hc',
+			ranks = {'2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', 'King', 'Ace'},
+			display_ranks = {'2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', 'King', 'Ace'},
+			atlas = 'balacards_balacord_diamonds_atlas',
+			pos_style = 'suit',
+		}
+	},
 }
+
 
 SMODS.Joker:take_ownership('j_joker', {
 
